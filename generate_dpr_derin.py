@@ -144,7 +144,6 @@ def create_dpr():
         Paragraph("Detailed Project Report (DPR)", subtitle_style),
         Paragraph("Machine Learning Web Application using Python & Streamlit", subtitle_style),
         Spacer(1, 10),
-        Paragraph("VaultSphere AI Technologies Pvt. Ltd.", subtitle_style),
         Paragraph("Developed by: Derin Devis", subtitle_style),
         Paragraph("June 2026", subtitle_style),
         Spacer(1, 40),
@@ -169,7 +168,6 @@ def create_dpr():
         [Paragraph("<b>Dataset</b>", body_style), Paragraph("500 Synthetic Student Records", body_style)],
         [Paragraph("<b>Developed By</b>", body_style), Paragraph("Derin Devis", body_style)],
         [Paragraph("<b>Registration Number</b>", body_style), Paragraph("23F41A3314", body_style)],
-        [Paragraph("<b>Organization</b>", body_style), Paragraph("VaultSphere AI Technologies Pvt. Ltd.", body_style)],
         [Paragraph("<b>Date</b>", body_style), Paragraph("June 2026", body_style)],
     ]
     meta_table = Table(meta_data, colWidths=[doc.width * 0.35, doc.width * 0.65])
