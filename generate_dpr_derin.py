@@ -604,13 +604,6 @@ def create_dpr():
         "• <b>Deployed App URL:</b> <font color=\"#4f46e5\"><a href=\"https://student-result-prediction-tew9i97r3xr8jqru4p4cu9.streamlit.app\">https://student-result-prediction-tew9i97r3xr8jqru4p4cu9.streamlit.app</a></font>", 
         bullet_style
     ))
-    
-    story.append(Spacer(1, 2))
-    story.append(Paragraph("-------------------------------------------------------------------------------------------------------------------------", ParagraphStyle('Line', parent=body_style, textColor=colors.HexColor('#cbd5e1'), alignment=1)))
-    story.append(Spacer(1, 1))
-    footer_text = "Developed by: Derin Devis (23F41A3314)  |  VaultSphere AI Technologies Pvt. Ltd.  |  June 2026"
-    story.append(Paragraph(footer_text, ParagraphStyle('Footer', parent=body_style, fontName='Helvetica-Bold', fontSize=9, textColor=colors.HexColor('#64748b'), alignment=1)))
-    
     doc.build(story)
     print("DPR PDF compiled successfully!")
  
