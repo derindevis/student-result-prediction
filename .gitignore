@@ -1,0 +1,25 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# Project files belonging to Sreehari
+app (2).py
+generate_dpr.py
+Student_Result_Prediction_DPR.pdf
+
+# Sample and intermediate assets
+sample.pdf
+snippet1_output.png
+snippet2_output.png
+snippet3_output.png
+snippet4_output.png
+
+# Agent files
+.agents/
+skills-lock.json
