@@ -52,8 +52,8 @@ def create_dpr():
         fontSize=14,
         leading=18,
         textColor=colors.HexColor('#1e3a8a'),
-        spaceBefore=12,
-        spaceAfter=6,
+        spaceBefore=10,
+        spaceAfter=4,
         keepWithNext=True
     )
     
@@ -83,7 +83,7 @@ def create_dpr():
         textColor=colors.HexColor('#334155'),
         leftIndent=15,
         firstLineIndent=-10,
-        spaceAfter=3
+        spaceAfter=2
     )
 
     code_style = ParagraphStyle(
@@ -596,6 +596,13 @@ def create_dpr():
         "Throughout this project, I completed a full data science workflow, including synthetic data preparation, model training, "
         "dashboard visualization, and PDF report creation. Building the frontend in Streamlit allowed for rapid development in pure "
         "Python, showing that clean data and simple linear models can provide dependable results when implemented correctly.", body_style
+    ))
+    
+    story.append(Spacer(1, 1))
+    story.append(Paragraph("14. Project Link", sec_num_style))
+    story.append(Paragraph(
+        "• <b>Deployed App URL:</b> <font color=\"#4f46e5\"><a href=\"https://student-result-prediction-tew9i97r3xr8jqru4p4cu9.streamlit.app\">https://student-result-prediction-tew9i97r3xr8jqru4p4cu9.streamlit.app</a></font>", 
+        bullet_style
     ))
     
     story.append(Spacer(1, 2))
